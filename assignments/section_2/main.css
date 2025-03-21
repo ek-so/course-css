@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    color: blue;
+    font-family: sans-serif;
+}
+
+.greenish {
+    color: green;
+}
+
+code {
+    color: red;
+    font-family: monospace;
+}
+
+/* select all items except for the 1st one */
+li + li {
+    background-color: black;
+    color: white;
+}
+
+/* this rule will override previous one for ALL list items:
+-because they have the same spacificty
+-but also because this one goes second */
+
+ol > li {
+    background-color: brown;
+    color: yellow;
+}
