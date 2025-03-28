@@ -16,11 +16,95 @@ body {
 
 .section-title {
     color: #0da58e;
+    text-align: center;
 }
 
 #product-overview h1 {
     color: white;
     font-family: 'Anton', sans-serif;
+}
+
+.plan {
+    background: #a9e7dd;
+    text-align: center;
+    padding: 16px;
+    margin: 8px;
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+    border-radius: 12px;
+}
+
+.plan--highlighted {
+    background: #0da58e;
+    color: white;
+    box-shadow: 0 4px 16px 4px rgba(5, 43, 34, 0.2);
+}
+
+.plan__annotation {
+    background: #ffe197;
+    color: #930c52;
+    padding: 8px;
+    box-shadow: 0 2px 8px 2px rgba(5, 43, 34, 0.2);
+    border-radius: 4px;
+}
+
+.plan__title {
+    color: #004237;
+}
+
+.plan__price {
+    color: #930c52;
+}
+
+.plan--highlighted .plan__title {
+    color: white;
+}
+
+.plan--highlighted .plan__price {
+    color: #ffe197;
+}
+
+.plan__features {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.plan__feature {
+    margin: 8px 0;
+}
+
+.button {
+    font: inherit;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    background: #004237;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+}
+
+.button:hover, .button:active {
+    background: white;
+    color: #004237;
+}
+
+.button:focus {
+    outline: none;
+}
+
+#key-features {
+    background: #ff9cbd;
+    margin: 80px 0;
+    padding: 64px;
+}
+
+#key-features .section-title {
+    color: #930c52;
+    margin: 32px;
 }
 
 /* h1 {
@@ -30,7 +114,7 @@ body {
 .main-header {
     /* width: 100%; takes 100% anyway*/
     padding: 8px 16px;
-    background: #14baa1;
+    background: #0da58e;
 }
 
 .main-header > div {
@@ -77,8 +161,8 @@ body {
 }
 
 .main-nav__item--cta a {
-    color: aliceblue;
-    background: #ff3b7c;
+    color: #930c52;
+    background: #ff9cbd;
     padding: 8px 16px;
     border-radius: 8px;
 }
