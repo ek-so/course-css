@@ -1,0 +1,120 @@
+* {
+	box-sizing: border-box; /* is typically used in every project to overrid default behavior */
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0; /* overrides browser default margin */
+}
+
+.main-header {
+    /* width: 100%; takes 100% anyway*/
+    padding: 8px 16px;
+    background: #0da58e;
+}
+
+.main-header > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__brand {
+    color: #004237;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 75px);
+    vertical-align: middle;
+}
+
+.main-nav__items {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.main-nav__item a {
+    color: #004237;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 2px 0;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active  {
+    color: aliceblue;
+    border-bottom: 3px solid aliceblue;
+}
+
+.main-nav__item--cta a {
+    color: #930c52;
+    background: #ff9cbd;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+    border: none;
+}
+
+.main-footer {
+    background: #004237;
+    color: white;
+    margin-top: 48px;
+    padding: 32px;
+}
+
+.main-footer__links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.main-footer__link {
+    display: inline-block; 
+    margin: 0 16px;  
+}
+
+.main-footer__link a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-footer__link a:hover,
+.main-footer__link a:active {
+    color: #ff9cbd;
+}
+
+
+.button {
+    font: inherit;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    background: #004237;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+}
+
+.button:hover, .button:active {
+    background: white;
+    color: #004237;
+}
+
+.button:focus {
+    outline: none;
+}
