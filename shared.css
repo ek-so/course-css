@@ -14,6 +14,7 @@ body {
     left: 0;  is needed when there are some margins for parent containers like body or html */
     padding: 8px 16px;
     background: #0da58e;
+    z-index: 1;
 }
 
 .main-header > div {
