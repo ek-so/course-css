@@ -8,8 +8,8 @@ body {
 }
 
 .backdrop {
-    display: none;
     position: fixed;
+    display: none;
     top: 0;
     left: 0;
     z-index: 100;
